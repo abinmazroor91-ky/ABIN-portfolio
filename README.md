@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+body{
+background:black;
+color:white;
+text-align:center;
+font-family:Arial;
+}
+
+.fade-in{
+animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn{
+from{opacity:0; transform:translateY(30px);}
+to{opacity:1; transform:translateY(0);}
+}
+</style>
     <title>My First Website</title>
     <style>
         body{
@@ -28,7 +45,7 @@
 </head>
 <body>
 
-<h1>Welcome 🔥</h1>
+<h1 class="fade-in">ABIN MAZROOR</h1>
 <p>This is my first website</p>
 <button onclick="alert('Website Working 😎')">Click Me</button>
 
